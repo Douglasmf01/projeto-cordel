@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Sriracha&display=swap');
+body{
+    font-family: sans-serif;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+header{
+    background-color: black;
+    margin: none;
+    padding: 3vh;
+}
+header h1, h2{
+    color: white;
+    text-align: center;
+}
+header h1{
+    font-size: 6vw;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Passion One', cursive;
+}
+header h2{
+    margin: 0px;
+    font-size: 3vw;
+}
+header h2 a {
+    text-decoration: none;
+    color: white;
+}
+header h2 a:hover{
+    text-decoration: underline;
+}
+p{ 
+    
+    font-size: 3vw;
+    line-height: 6vw;
+    margin: 7%;
+    font-family: 'Sriracha', cursive;
+}
+.imagem{
+     background-size: cover;
+    height: 50vw;
+    width: 96vw;
+    background-attachment: fixed;
+    background-position: center right;
+    padding: 1%;
+    padding-bottom: 11%;
+    box-shadow: inset 6px 6px 6px 0px black;
+}
+.imagem#flor{
+    background-image: url(pacote-d012/imagens/background001.jpg);
+}
+.imagem#livro{
+    background-image: url(pacote-d012/imagens/background002.jpg);
+}
+.imagem p{
+    background-color: rgba(0, 0, 0, 0.474);
+    color: white;
+    width: 40vw;
+    border-radius: 5%;
+    font-size: 3vw;
+    padding: 10px;
+    margin-left: 3% ;
+    text-shadow: 2px 2px 2px black;
+}
+footer{
+    background-color: black;
+    margin-bottom: -21%;
+    text-align: center;
+    margin-right: 0px;
+}
+footer p{
+    color: white;
+    font-family: sans-serif;
+}
+/*97 para 72*/
